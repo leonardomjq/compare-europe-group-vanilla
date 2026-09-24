@@ -10,8 +10,6 @@ async function getUserData() {
 
 			const json = await response.json();
 
-			console.log(json)
-			
 			json.forEach(user => {
         const cardElement = document.createElement('div');
         cardElement.classList.add('card');
